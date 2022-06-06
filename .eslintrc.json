@@ -1,0 +1,18 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": [
+        "google"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "linebreak-style": ["error", "windows"],
+        "no-tabs": ["error", { "allowIndentationTabs": true }],
+        "indent": ["error", "tab"]
+    }
+}
